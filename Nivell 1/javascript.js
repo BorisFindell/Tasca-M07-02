@@ -37,5 +37,33 @@
 
 //AIXÓ TAMBÉ ES PODRÍA FER AMB includes()
 
+
+
 //EXERCICI 3
 
+
+// let quantLet = new Map()
+// const myNom = new Array('A', 'D', 'R', 'I', 'A', 'N') 
+//     for (i=0; i < myNom.length; i++) {
+//         let num = 1
+//         if(quantLet.has(myNom[i])) {
+//             quantLet.set(myNom[i], num + 1)
+//         }
+//         else{
+//             quantLet.set(myNom[i], num)
+//         }
+//     }
+
+//     console.log(quantLet);
+
+
+    
+    
+//EXERCICI 4
+
+// const myNom = ['M', 'A', 'R', 'T', 'I', 'N'];
+// const myCog = ['F', 'R', 'A', 'N', 'G', 'U', 'L'];
+
+// let fullName = myNom.concat('', myCog)
+
+// console.log(fullName)
