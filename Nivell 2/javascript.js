@@ -14,8 +14,6 @@ for (i=0; i < correus.length; i++){
     }
 }
 
+noRep = correus
+
 console.log(correus);
-console.log(noRep)
-
-
-document.getElementById("demo").innerHTML = noRep.size
