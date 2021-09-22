@@ -7,7 +7,7 @@ let noRep = new Map()
 
 for (i=0; i < correus.length; i++){
     if (noRep.has(correus[i])) {
-        correus.pop()
+        correus.pop() //ELIMINA L'ENTRADA REPETIDA
     }    
     else {
         noRep.set(correus[i])
