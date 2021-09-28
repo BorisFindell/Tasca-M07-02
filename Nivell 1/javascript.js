@@ -13,25 +13,25 @@ for (i=0; i < myNom.length; i++) {
 // EXERCICI 2
 
 let vocales = ['A', 'E', 'I', 'O', 'U']
-let myNom2 = ['M', 'A', 'R', 3, 'T', 'I', 'N']
+myNom = ['M', 'A', 'R', 3, 'T', 'I', 'N']
 let trobat = true;
 
 
-for (i = 0; i < myNom2.length; i++){
+for (i = 0; i < myNom.length; i++){
     trobat = true;
     for (x = 0; x < vocales.length; x++) {
-        if (myNom2[i] == vocales[x] && trobat == true) {
+        if (myNom[i] == vocales[x] && trobat == true) {
             console.log('He trobat la vocal:' + vocales[x])
             trobat = false;  
         }
     }
-        if (trobat == true && isNaN(myNom2[i])) {
-        console.log('He trobat la consonant:' + myNom2[i])
+        if (trobat == true && isNaN(myNom[i])) {
+        console.log('He trobat la consonant:' + myNom[i])
         trobat = false;  
         }
 
-        if (trobat == true && !isNaN(myNom2[i])) {
-        console.log('Els noms de persones no contenen el numero:' + myNom2[i])
+        if (trobat == true && !isNaN(myNom[i])) {
+        console.log('Els noms de persones no contenen el numero:' + myNom[i])
         trobat = false;
         }
     }
@@ -41,16 +41,17 @@ for (i = 0; i < myNom2.length; i++){
 
 
 // EXERCICI 3
-
+//FAIG SERVIR EL MEU SEGON NOM PERQUÈ TÉ UNA LLETRA REPETIDA (EL PRIMER NO)
 
 let quantLet = new Map()
-    for (i=0; i < myNom.length; i++) {
+let mySecNom = new Array('A', 'D', 'R', 'I', 'A', 'N')
+    for (i=0; i < mySecNom.length; i++) {
         let num = 1
-        if(quantLet.has(myNom[i])) {
-            quantLet.set(myNom[i], num + 1)
+        if(quantLet.has(mySecNom[i])) {
+            quantLet.set(mySecNom[i], num + 1)
         }
         else{
-            quantLet.set(myNom[i], num)
+            quantLet.set(mySecNom[i], num)
         }
     }
 
