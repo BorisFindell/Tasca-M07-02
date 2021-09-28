@@ -9,6 +9,7 @@ for (i=0; i < myNom.length; i++) {
 
 
 
+
 // EXERCICI 2
 
 let vocales = ['A', 'E', 'I', 'O', 'U']
